@@ -1,21 +1,21 @@
 # TS-React-Vite-StyledComp-demo
 
-Jobs Application front-end app:
+**Jobs Application front-end app:**
 
-Pre-requisites:
+**Pre-requisites:**
 You will need to add spring security to your backends to allow temps to log in (you’ll need to add credentials to each temp record too)
 API should only return jobs that are unassigned or are assigned to the reports of the currently logged in temp
 API should only return temps that are reporting to the currently logged in user in the hierarchy
 
-Assumptions:
-All endpoints need to be authorized, apart from login
-All pages other than /login should redirect to /login if no temp is logged in
-Currently logged in users should not be able to see or update temps or jobs assigned to temps that are not reporting to them in the hierarchy
+**Assumptions:**
+- All endpoints need to be authorized, apart from login
+- All pages other than /login should redirect to /login if no temp is logged in
+- Currently logged in users should not be able to see or update temps or jobs assigned to temps that are not reporting to them in the hierarchy
 
-Stack:
+**Stack:**
 vite, styled-components, typescript, react, react-router-dom
 
-Specs:
+**Specs:**
 Make sure to use proper theming in your application via styled-components
 Make sure to decouple state and styling
 Pages
