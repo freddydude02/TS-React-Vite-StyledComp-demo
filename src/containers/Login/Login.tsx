@@ -1,11 +1,11 @@
 import Button from "../../components/Button/Button";
+import Page from "../../assets/styling/theme/page/Page";
 
 const Login = () => {
     return (
-        <div>
+        <Page>
             <h1>hi</h1>
-            <Button label="click me"></Button>
-        </div>
+        </Page>
     );
 };
 
